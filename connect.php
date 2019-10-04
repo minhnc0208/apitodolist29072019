@@ -11,8 +11,16 @@
 //6 Array method
 //7 OOP
 //8 Xu ly file
- $a = "Hello";
- $a = "Xin chào";
- echo $a;
+ $hostname = "localhost";
+ $username = "root"
+ $password = "";
+ $database ="quanlycongviec29072019";
+ $con = mysqli_connect($hostname,$username,$password);
+ if(mysqli_connect_erro()){
+     echo "Loi" . mysqli_connect_erro();
+
+ }else{
+     echo"Thanh cong";
+ }
 
 ?>
